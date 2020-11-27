@@ -1,0 +1,52 @@
+baseURL = "https://"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+googleAnalytics = "UA-41627770-2"
+relativeURLs = true
+
+title = "Workshop: AWS Network Firewall"
+theme = "learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+uglyurls = true
+sectionPagesMenu = "main"
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
+
+[params]
+  editURL = "https://github.com/davesc63/workshop-aws-network-firewall"
+  description = "Workshop: AWS Network Firewall"
+  author = "AWS"
+  ghrepo = "https://github.com/davesc63/workshop-aws-network-firewall"
+  disableBreadcrumb = false
+  disableNextPrev = false
+  themeVariant = "aws"
+  disableSearch = false
+  disableAssetsBusting = true
+  disableLanguageSwitchingButton = false
+  disableShortcutsTitle = true
+  disableInlineCopyToClipBoard = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[blackfriday]
+plainIDAnchors = true
+hrefTargetBlank = true
+
+[Languages]
+[Languages.en]
+title = "Workshop: AWS Network Firewall"
+weight = 1
+languageName = "English"
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i> GitHub Project"
+url = "https://github.com/davesc63/workshop-aws-network-firewall"
+weight = 30

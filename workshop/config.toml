@@ -1,4 +1,4 @@
-baseURL = "https://"
+baseURL = "https://anfw.gov.sa.aws.dev"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 googleAnalytics = "UA-41627770-2"
